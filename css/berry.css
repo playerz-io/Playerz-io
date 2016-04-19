@@ -733,7 +733,6 @@ header .navbar-default {
     background: url("http://il9.picdn.net/shutterstock/videos/5949566/thumb/8.jpg") no-repeat;
     cover:no-repeat;
     center: center;
-    
   }
 
   header .navbar-default ul.navbar-nav li a {
@@ -843,15 +842,6 @@ header .navbar-default {
   }
   section#features .media.active .media-heading {
     color: #13328e;
-  }
-  section#reviews {
-    background: url("../img/berry/bk-berry.jpg");
-  }
-  section#reviews header {
-    color: #ffffff;
-  }
-  section#reviews header h1:after {
-    background: #ffffff;
   }
   section#reviews .review-filtering .review .review-person img {
     border: 3px solid #ffffff;
