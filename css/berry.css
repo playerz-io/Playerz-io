@@ -24,7 +24,7 @@
   transform: translate(-50%, -50%);
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .fullscreen-bg {
     background: url("http://il9.picdn.net/shutterstock/videos/5949566/thumb/8.jpg")no-repeat;
     background-size: cover;
@@ -33,7 +33,7 @@
   .fullscreen-bg__video {
     display: none;
   }
-}
+} */
 
 
 .video-container {
@@ -731,8 +731,9 @@ header .navbar-default {
 
   header {
     background: url("http://il9.picdn.net/shutterstock/videos/5949566/thumb/8.jpg") no-repeat;
-    cover:no-repeat;
+    /* cover:no-repeat; */
     center: center;
+    background-size: cover;
   }
 
   header .navbar-default ul.navbar-nav li a {
@@ -1066,6 +1067,8 @@ form .form-control:focus {
 }
 
 .pre-loader {
+  background: url("http://il9.picdn.net/shutterstock/videos/5949566/thumb/8.jpg") no-repeat;
+  background-size: cover;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -1090,7 +1093,7 @@ form .form-control:focus {
   display: inline-block;
   -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
   animation: bouncedelay 1.4s infinite ease-in-out;
-  /* Prevent first frame from flickering when animation starts */
+  Prevent first frame from flickering when animation starts
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -1123,7 +1126,4 @@ form .form-control:focus {
     transform: scale(1);
     -webkit-transform: scale(1);
   }
-}
-.pre-loader {
-  background: #13328e;
 }
