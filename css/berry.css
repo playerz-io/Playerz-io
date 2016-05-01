@@ -5,7 +5,8 @@
   font-size: 21px;
   padding: 14px 24px;
 }
-.jumbotron {
+
+.center {
   text-align: center;
 }
 .grid {
@@ -15,8 +16,12 @@
 #titre {
   margin-top: 30px;
 }
-p {
+
+.grey {
   color: grey;
+}
+.white {
+  color: #ffffff;
 }
 
 /*end du culturathon*/
