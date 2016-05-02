@@ -1,5 +1,31 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 
+/*css du culturathon*/
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.center {
+  text-align: center;
+}
+.grid {
+  margin: 10px;
+  width: 31%;
+}
+#titre {
+  margin-top: 30px;
+}
+
+.grey {
+  color: grey;
+}
+.white {
+  color: #ffffff;
+}
+
+/*end du culturathon*/
+
 .fullscreen-bg {
   /*position: fixed;*/
   top: 0;
@@ -33,67 +59,68 @@
   .fullscreen-bg__video {
     display: none;
   }
-} */
-
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+  } */
 
 
 
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+  .video-container iframe,
+  .video-container object,
+  .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
-body {
-  font-family: 'Raleway', Arial;
-  color: #fff;
-  -webkit-font-smoothing: antialiased;
-}
-a {
-  font-family: 'Raleway', Arial;
-  -webkit-font-smoothing: antialiased;
-}
-div.content {
-  overflow: hidden;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  color: #666666;
-}
-header .navbar-default {
-  background: none;
-  border: none;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-}
+
+
+  body {
+    font-family: 'Raleway', Arial;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+  }
+  a {
+    font-family: 'Raleway', Arial;
+    -webkit-font-smoothing: antialiased;
+  }
+  div.content {
+    overflow: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    color: #666666;
+  }
+  header .navbar-default {
+    background: none;
+    border: none;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+  }
 /*header .navbar-default ul.navbar-nav {
   padding-top: 55px;
   }*/
@@ -642,7 +669,7 @@ header .navbar-default {
     border-radius: 5em;
     height: 50px;
     line-height: 50px;
-    padding: 15px; 
+    padding: 15px;
     color: #666666;
     border: 2px solid #cccccc;
     font-weight: 300;
