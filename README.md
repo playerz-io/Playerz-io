@@ -16,7 +16,7 @@
 <a href="http://taggaddaaaa.github.io/Playerz-io/culturathon">Culturathon</a>
 
 >rajout d'une page non référencée au public pour notre candidature à L'incubateur d'HEC en mai 2016 :
-<a href=">http://taggaddaaaa.github.io/Playerz-io/hec">Hec</a>
+<a href="http://taggaddaaaa.github.io/Playerz-io/hec">Hec</a>
 
 
 ##TODO
@@ -24,7 +24,7 @@
 
 - [ ] - Ecrire un manifest
 
-- [ ] - revoir mes favicons
+- [ ] - Revoir mes favicons
 
 - [ ] - Optimiser la taille des img
 
